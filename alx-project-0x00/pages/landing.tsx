@@ -1,5 +1,5 @@
 import Card from "@/components/Card"
-import Button from "../components/Button";
+import Button from "@/components/Button";
 
 const Landing: React.FC = () => {
     return (
@@ -25,7 +25,7 @@ const Landing: React.FC = () => {
                 <div className="space-x-4">
                     <Button title="Rounded SM" styles="rounded-sm" />
                     <Button title="Rounded MD" styles="rounded-md" />
-                    <Button title="Rounded FULL" styles="rounded-full" />
+                    <Button title="Rounded FULL" styles="rounded-lg" />
                 </div>
 
                 {/* COMBINED EXAMPLES */}
